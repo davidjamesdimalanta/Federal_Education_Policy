@@ -1,0 +1,730 @@
+school_name,school_type,osslt10,ossltchange,low_inc,no_deg,esl,imm
+Central Algoma Secondary School,Public,71,5,15,10,5,0
+Chapleau High School,Public,53,-7,0,10,10,0
+Elliot Lake Secondary School,Public,61,-14,20,10,0,0
+Korah Collegiate and Vocational School,Public,68,-6,12,7,3,0
+Michipicoten High School,Public,57,1,10,10,0,0
+Superior Heights Collegiate and Vocational School,Public,72,4,16,5,2,2
+W C Eaket Secondary School,Public,57,-5,15,10,0,0
+White Pines Collegiate and Vocational School,Public,58,6,10,5,5,5
+Holy Cross Catholic Secondary School,Catholic,77,-4,7,2,5,2
+Nicholson Catholic College,Catholic,86,-5,20,10,5,0
+Regiopolis/Notre-Dame Catholic High School,Catholic,87,-1,14,3,9,4
+St Paul Catholic Secondary School,Catholic,83,4,10,10,0,0
+St Theresa Catholic Secondary School,Catholic,65,-11,12,5,2,0
+Central Huron Secondary School,Public,56,-18,10,0,0,0
+F E Madill Secondary School,Public,75,8,16,19,1,0
+Goderich District Collegiate Institute,Public,81,4,10,10,0,0
+Listowel District Secondary School,Public,77,3,8,18,14,1
+Mitchell District High School,Public,94,9,10,0,0,0
+South Huron District High School,Public,64,-21,10,10,0,0
+St Marys D.C. & V. I. High School,Public,72,1,10,0,0,0
+Bruce Peninsula District School,Public,46,-21,10,20,0,0
+Georgian Bay Community School Secondary School,Public,80,-7,15,0,0,0
+Grey Highlands Secondary School,Public,67,-11,11,10,2,0
+John Diefenbaker Senior School,Public,74,-8,12,13,0,0
+Kincardine District Secondary School,Public,70,-2,10,0,5,0
+Owen Sound District Secondary School Secondary School,Public,91,17,15,6,3,1
+Peninsula Shores District School,Public,81,12,15,10,0,0
+Saugeen District Secondary School,Public,91,4,12,6,8,2
+Walkerton District Community School,Public,70,-10,15,10,0,0
+Assumption College School High School,Catholic,79,0,11,4,4,2
+Holy Trinity Catholic High School,Catholic,83,-5,10,8,3,2
+St John's College,Catholic,86,3,12,3,5,1
+Sacred Heart High School,Catholic,80,-3,11,9,3,1
+St Mary's High School,Catholic,63,-5,13,6,1,1
+Holy Trinity Catholic Secondary School,Catholic,81,10,15,10,10,0
+Notre Dame Catholic High School,Catholic,78,-6,8,2,3,1
+St Francis Xavier Catholic High School,Catholic,58,-33,5,0,15,5
+St John Catholic High School,Catholic,81,-7,20,5,5,0
+St Joseph's Secondary School,Catholic,85,8,16,8,9,2
+St Mary's High School,Catholic,90,-1,15,10,0,0
+St Michael High School,Catholic,91,-9,5,0,5,0
+St. Luke Catholic High School,Catholic,8,-23,10,0,0,0
+St. Thomas Aquinas Catholic High School,Catholic,91,6,5,0,0,0
+Collège français secondaire,Public,100,3,30,10,75,10
+École secondaire Franco-Niagara,Public,80,-20,20,0,50,0
+École secondaire Gabriel-Dumont,Public,89,-11,20,5,40,0
+École secondaire Gaétan Gervais,Public,96,3,20,5,80,10
+École secondaire Georges-P-Vanier,Public,83,4,25,15,70,0
+École secondaire Jeunes sans frontières,Public,92,-5,15,10,75,0
+École secondaire Le Caron,Public,72,-17,10,0,35,0
+École secondaire Norval-Morrisseau,Public,89,-11,20,0,50,0
+École secondaire Roméo Dallaire,Public,86,-14,10,5,55,5
+École secondaire Ronald-Marion,Public,81,-11,20,5,75,10
+École secondaire Toronto Ouest,Public,92,5,20,10,55,10
+École secondaire de Lamothe-Cadillac,Public,88,-12,30,15,85,10
+École secondaire Étienne-Brûlé,Public,91,4,30,10,80,10
+ÉSAC Mère-Teresa,Catholic,86,-3,20,10,70,5
+ÉSC Monseigneur-de-Charbonnel,Catholic,91,3,25,10,85,10
+ÉSC Nouvelle-Alliance,Catholic,89,-1,10,5,50,0
+ÉSC Père-René-de-Galinée,Catholic,94,-3,10,0,60,0
+ÉSC Renaissance,Catholic,93,-1,11,5,57,1
+ÉSC Saint-Charles-Garnier,Catholic,94,0,15,0,75,5
+ÉSC Saint-Frère-André,Catholic,98,3,20,5,70,5
+ÉSC Saint-Jean-de-Brébeuf,Catholic,88,-5,15,0,75,0
+ÉSC Sainte-Famille,Catholic,94,-1,14,5,80,7
+ÉSC Sainte-Trinité,Catholic,94,-1,10,0,75,0
+École secondaire Hanmer,Public,79,-1,10,5,80,0
+École secondaire Macdonald-Cartier,Public,90,5,10,0,75,0
+École secondaire Renaissance,Public,57,-25,20,10,70,0
+École secondaire l'Alliance,Public,100,15,20,0,80,0
+École secondaire publique Echo du Nord,Public,64,-21,20,10,80,0
+École secondaire publique Nipissing Ouest,Public,62,-2,20,10,80,0
+École secondaire publique Odyssée,Public,56,-18,20,10,50,0
+École secondaire catholique Algonquin,Catholic,82,-2,10,5,65,0
+École secondaire catholique Franco-Cité,Catholic,82,-6,15,10,85,0
+École secondaire catholique Embrun,Catholic,98,1,0,0,95,0
+École secondaire catholique L'Escale,Catholic,95,0,9,3,95,0
+École secondaire catholique La Citadelle,Catholic,83,-10,15,5,80,0
+École secondaire catholique Le Relais,Catholic,81,-11,20,5,95,0
+École secondaire catholique de Casselman,Catholic,86,-4,9,1,94,0
+École secondaire catholique de Plantagenet,Catholic,90,-10,10,0,95,0
+École secondaire catholique régionale de Hawkesbury,Catholic,90,-1,20,0,100,0
+École secondaire catholique de La Vérendrye,Catholic,94,1,10,0,40,0
+École catholique Nouveau Regard (Pavillon Jeunesse Nord),Catholic,78,3,0,10,80,0
+École secondaire catholique Cité des Jeunes,Catholic,83,-9,15,5,90,0
+École secondaire catholique Hearst,Catholic,89,-4,10,5,100,0
+École secondaire catholique L'Alliance,Catholic,64,-11,20,10,80,0
+École secondaire catholique Sainte-Marie,Catholic,81,-6,10,10,85,0
+École secondaire catholique Thériault,Catholic,79,-11,10,8,81,0
+École secondaire catholique l’Envolée du Nord,Catholic,89,8,20,0,60,0
+Académie catholique Ange-Gabriel,Catholic,94,-6,20,0,40,0
+École secondaire catholique Béatrice-Desloges,Catholic,92,-5,6,1,83,1
+École secondaire catholique Collège catholique Franco-Ouest,Catholic,87,-5,22,8,73,12
+École secondaire catholique Collège catholique Samuel-Genest,Catholic,90,-1,28,10,90,14
+École secondaire catholique Franco-Cité,Catholic,86,-6,21,9,77,7
+École secondaire catholique Garneau,Catholic,94,-1,6,3,83,2
+École secondaire catholique Jeanne-Lajoie,Catholic,100,2,10,0,65,0
+École secondaire catholique Marie-Rivier,Catholic,92,-8,10,5,60,0
+École secondaire catholique Mer Bleue,Catholic,95,3,8,3,81,2
+École secondaire catholique Paul-Desmarais,Catholic,96,-3,6,1,60,1
+École secondaire catholique Pierre-Savard,Catholic,94,3,8,2,63,1
+École secondaire catholique de l’innovation,Catholic,71,-29,10,0,80,10
+Collège Notre-Dame,Catholic,90,1,15,5,85,0
+École secondaire catholique Champlain,Catholic,73,-12,10,5,85,0
+École secondaire catholique Jeunesse-Nord,Catholic,67,-33,20,10,30,0
+École secondaire catholique Saint-Joseph,Catholic,62,-18,10,10,30,0
+École secondaire catholique Trillium,Catholic,73,0,0,10,50,0
+École secondaire catholique l'Horizon,Catholic,80,-4,10,0,90,0
+École secondaire du Sacré-Coeur,Catholic,75,-14,15,0,80,5
+École secondaire catholique E.J.Lajeunesse,Catholic,97,2,18,6,34,2
+École secondaire catholique l'Essor,Catholic,84,-6,10,6,26,1
+École secondaire catholique École secondaire Monseigneur-Bruyère,Catholic,92,0,20,10,50,0
+École secondaire catholique École secondaire Notre-Dame,Catholic,68,-7,0,10,20,0
+École secondaire catholique École secondaire Saint-François-Xavier,Catholic,96,14,20,10,30,10
+École secondaire catholique École secondaire de Pain Court,Catholic,83,0,10,10,10,0
+École secondaire publique De La Salle,Public,96,-2,20,6,74,5
+École secondaire publique Gisèle-Lalonde,Public,92,-4,11,3,86,2
+École secondaire publique L'Héritage,Public,79,-7,20,5,60,0
+École secondaire publique Le Sommet,Public,97,-3,15,5,90,0
+École secondaire publique Louis-Riel,Public,96,2,22,8,87,6
+École secondaire publique Marc-Garneau,Public,100,0,10,10,60,0
+École secondaire publique Maurice-Lapointe,Public,94,-6,5,0,75,0
+École secondaire publique Omer-Deslauriers,Public,87,1,30,15,90,10
+A N Myer Secondary School,Public,84,-4,12,5,8,1
+Beamsville District Secondary School,Public,83,15,10,5,5,0
+DSBN Academy,Public,89,16,20,10,10,0
+E L Crossley Secondary School,Public,80,-10,5,1,1,1
+Eastdale Secondary School,Public,64,-16,25,15,5,0
+Eden High School,Public,92,-1,12,5,11,1
+Governor Simcoe Secondary School,Public,84,4,11,5,6,2
+Grimsby Secondary School,Public,85,-5,8,2,4,1
+Laura Secord Secondary School,Public,82,1,21,9,7,5
+Port Colborne High School,Public,61,-13,20,0,5,0
+Sir Winston Churchill Secondary School,Public,87,-3,15,6,16,2
+St Catharines Collegiate Institute and Vocational School,Public,52,-33,26,13,18,12
+Stamford Collegiate,Public,75,-23,20,7,7,4
+Thorold Secondary School,Public,73,-10,17,8,3,2
+Welland Centennial Secondary School,Public,75,-14,14,4,8,3
+Westlane Secondary School,Public,84,-11,17,6,29,5
+Cochrane High School,Public,42,-12,10,15,0,0
+Englehart High School,Public,73,13,20,20,0,0
+Iroquois Falls Secondary School,Public,57,-7,20,10,0,0
+Kapuskasing District High School,Public,53,-28,20,0,10,0
+Kirkland Lake District Composite Secondary School,Public,55,-20,15,5,0,0
+Roland Michener Secondary School,Public,65,-6,10,10,0,0
+Timiskaming District Secondary School,Public,78,3,10,10,5,0
+Timmins High and Vocational School,Public,63,4,12,9,1,0
+Ascension of Our Lord Secondary School,Catholic,76,6,22,17,25,8
+Cardinal Ambrozic Catholic Secondary School,Catholic,86,3,10,10,26,4
+Cardinal Leger Secondary School,Catholic,76,1,16,7,24,4
+Father Michael Goetz Secondary School,Catholic,81,3,29,7,49,18
+Holy Name of Mary Secondary School,Catholic,94,8,15,8,36,3
+Iona Secondary School,Catholic,87,2,17,3,33,8
+John Cabot Catholic Secondary School,Catholic,82,3,22,6,41,11
+Loyola Catholic Secondary School,Catholic,85,5,16,6,30,5
+Notre Dame Catholic Secondary School,Catholic,84,1,12,6,18,8
+Our Lady of Mount Carmel Secondary School,Catholic,89,0,10,4,25,4
+Philip Pocock Catholic Secondary School,Catholic,86,-1,19,7,47,5
+Robert F Hall Catholic Secondary School,Catholic,79,-5,6,4,6,1
+St Aloysius Gonzaga Secondary School,Catholic,90,-3,17,2,27,3
+St Augustine Secondary School,Catholic,74,1,15,7,23,8
+St Edmund Campion Secondary School,Catholic,87,9,10,7,20,3
+St Francis Xavier Secondary School,Catholic,90,5,15,5,28,4
+St Joseph Secondary School,Catholic,83,2,17,6,24,7
+St Marcellinus Secondary School,Catholic,88,-4,11,4,17,3
+St Marguerite d'Youville Secondary School,Catholic,81,2,11,8,15,4
+St Martin Secondary School,Catholic,78,-3,20,4,36,6
+St Paul Secondary School,Catholic,79,-7,17,5,26,5
+St Thomas Aquinas Secondary School,Catholic,75,4,15,10,23,4
+St. Joan of Arc Catholic Secondary School,Catholic,84,-2,20,2,49,10
+St. Michael Catholic Secondary School,Catholic,79,-1,7,4,6,1
+St. Roch Catholic Secondary School,Catholic,87,9,11,7,17,3
+All Saints Catholic Secondary School Secondary School,Catholic,91,11,10,3,5,2
+Archbishop Denis O'Connor Catholic High School,Catholic,87,12,15,10,10,0
+Father Leo J Austin Catholic Secondary School,Catholic,87,4,11,2,7,2
+Monsignor John Pereyma Catholic Secondary School,Catholic,53,-19,20,10,10,10
+Monsignor Paul Dwyer Catholic High School,Catholic,70,-11,14,5,6,4
+Notre Dame Catholic Secondary School,Catholic,80,0,13,6,7,2
+St Mary Catholic Secondary School,Catholic,84,2,9,4,7,3
+Ajax High School,Public,75,0,11,5,13,4
+Anderson Collegiate and Vocational Institute,Public,87,9,10,2,13,2
+Brock High School,Public,61,-18,10,0,0,0
+Brooklin High School,Public,85,-4,5,3,2,1
+Donald A Wilson Secondary School,Public,88,3,8,2,14,1
+Dunbarton High School,Public,87,7,7,3,14,2
+Durham Alternative Secondary School,Public,50,12,15,5,5,0
+Eastdale Collegiate and Vocational Institute,Public,75,3,18,6,7,4
+G L Roberts Collegiate and Vocational Institute,Public,38,-24,30,10,0,5
+Henry Street High School,Public,83,5,12,3,10,4
+J Clarke Richardson Collegiate Institute,Public,85,7,14,5,32,2
+Maxwell Heights Secondary School,Public,82,2,11,3,14,2
+O'Neill Collegiate and Vocational Institute,Public,86,3,19,4,12,4
+Pickering High School,Public,91,8,10,5,21,2
+Pine Ridge Secondary School,Public,77,5,13,4,23,2
+Port Perry High School,Public,71,-9,10,0,2,1
+R S Mclaughlin Collegiate and Vocational Institute,Public,80,-3,16,9,12,3
+Sinclair Secondary School,Public,79,-1,9,3,17,3
+Uxbridge Secondary School,Public,89,2,7,1,3,1
+Brantford Collegiate Institute and Vocational School,Public,72,-7,14,3,3,2
+Cayuga Secondary School,Public,63,-16,8,1,2,1
+Delhi District Secondary School,Public,57,-13,11,9,3,1
+Dunnville Secondary School,Public,67,7,15,5,0,0
+Hagersville Secondary School,Public,56,-17,10,5,0,0
+McKinnon Park Secondary School,Public,68,-1,6,1,2,0
+North Park Collegiate and Vocational School,Public,72,1,15,4,7,1
+Paris District High School,Public,72,-1,10,4,2,1
+Pauline Johnson Collegiate and Vocational School,Public,46,-9,23,10,6,4
+Simcoe Composite School,Public,67,-3,12,6,2,1
+Tollgate Technological Skills Centre Secondary School,Public,0,-2,25,10,0,0
+Valley Heights Secondary School,Public,47,-13,10,30,30,0
+Waterford District High School,Public,64,-7,10,0,5,0
+Belle River District High School,Public,76,4,7,4,5,1
+Essex District High School,Public,84,12,6,2,1,0
+General Amherst High School,Public,81,-1,9,0,1,0
+Hon W C Kennedy Collegiate Institute,Public,64,-2,40,18,40,12
+Kingsville District High School,Public,81,-6,8,12,4,0
+Leamington District Secondary School,Public,66,-11,14,28,30,12
+Riverside Secondary School,Public,75,0,19,8,23,3
+Sandwich Secondary School,Public,91,2,10,2,10,1
+Tecumseh Vista Academy- Secondary,Public,90,-2,9,2,12,1
+Vincent Massey Secondary School,Public,84,-6,20,5,47,6
+W. F. Herman Academy Secondary School,Public,62,-10,27,10,16,7
+Walkerville Collegiate Institute,Public,81,2,28,10,7,2
+Western Secondary School,Public,10,8,10,10,5,0
+Westview Freedom Academy Secondary School,Public,39,-2,42,16,54,30
+Assumption Catholic Secondary School,Catholic,87,-2,11,3,19,7
+Bishop Paul Francis Reding Catholic Secondary School,Catholic,86,0,10,5,32,3
+Christ the King Catholic Secondary School,Catholic,81,-6,5,2,5,0
+Corpus Christi Catholic Secondary School,Catholic,88,2,7,1,15,3
+Holy Trinity Catholic Secondary School,Catholic,86,1,13,2,17,3
+Notre Dame Catholic Secondary School,Catholic,82,-6,8,3,11,2
+St. Francis Xavier Catholic Secondary School,Catholic,85,0,16,3,29,6
+St. Ignatius of Loyola Catholic Secondary School,Catholic,91,0,13,2,23,5
+St. Thomas Aquinas Catholic Secondary School,Catholic,83,0,13,2,18,7
+Abbey Park High School,Public,93,1,15,1,46,7
+Acton District High School,Public,80,2,5,0,5,0
+Aldershot High School,Public,78,-8,9,4,25,3
+Burlington Central High School,Public,78,-5,15,4,37,9
+Craig Kielburger Secondary School,Public,75,-5,11,5,41,6
+Dr. Frank J. Hayden Secondary School,Public,87,0,9,1,32,3
+Garth Webb Secondary School,Public,93,0,12,2,45,8
+Georgetown District High School,Public,80,-2,4,3,10,0
+Iroquois Ridge High School,Public,94,1,14,0,53,8
+M M Robinson High School,Public,76,-1,8,4,16,1
+Milton District High School,Public,91,4,12,2,44,3
+Nelson High School,Public,85,-5,8,1,16,2
+Oakville Trafalgar High School,Public,92,-2,9,1,39,7
+Thomas A Blakelock High School,Public,83,-4,12,2,34,6
+White Oaks High School,Public,92,1,15,3,70,13
+Bishop Ryan Catholic Secondary School,Catholic,82,-1,13,6,18,4
+Bishop Tonnos Catholic Secondary School,Catholic,82,-3,10,4,13,2
+Cathedral High School,Catholic,68,10,32,19,29,11
+St. Jean de Brebeuf Catholic Secondary School,Catholic,78,3,20,8,24,6
+St. John Henry Newman Catholic Secondary School,Catholic,74,-11,12,8,15,2
+St. Mary Catholic Secondary School,Catholic,81,-5,12,3,10,3
+St. Thomas More Catholic Secondary School,Catholic,82,3,17,7,25,6
+Ancaster High School,Public,83,-4,8,4,21,3
+Dundas Valley Secondary School,Public,79,-1,9,1,7,1
+Glendale Secondary School,Public,67,3,26,10,40,9
+Orchard Park Secondary School,Public,87,7,11,7,39,2
+Saltfleet High School,Public,81,8,12,4,31,1
+Sherwood Secondary School,Public,64,-2,17,6,12,1
+Sir Allan MacNab Secondary School,Public,60,-4,18,8,22,3
+Sir Winston Churchill Secondary School,Public,49,-11,29,16,11,1
+Waterdown District High School,Public,81,-2,7,1,9,1
+Westdale Secondary School,Public,84,-2,20,9,32,7
+Westmount Secondary School,Public,88,-1,16,7,35,2
+Bayside Secondary School,Public,81,0,11,6,3,0
+Centennial Secondary School,Public,58,-18,17,8,3,1
+Central Hastings School Secondary School,Public,69,17,25,5,0,0
+Eastside Secondary School,Public,60,-2,16,8,4,0
+North Hastings High School,Public,80,23,20,10,0,0
+Prince Edward Collegiate Institute,Public,63,-6,20,0,0,0
+Trenton High School,Public,58,-6,15,10,5,0
+St Anne's Catholic Secondary School,Catholic,67,-17,9,7,2,1
+St Michael Catholic Secondary School,Catholic,79,-3,7,5,0,0
+St Mary's College Separate School,Catholic,80,8,16,6,3,2
+Northern Lights Secondary School,Public,69,63,15,20,0,0
+Adam Scott Collegiate and Vocational Institute,Public,84,14,14,6,5,1
+Bowmanville High School,Public,73,-4,8,3,4,1
+Campbellford District High School,Public,72,-3,20,5,0,0
+Clarington Central Secondary School,Public,76,7,8,2,5,1
+Clarke High School,Public,87,3,5,5,5,0
+Cobourg Collegiate Institute,Public,88,10,11,2,3,2
+Courtice Secondary School,Public,76,-5,6,3,6,2
+Crestwood Secondary School,Public,66,-8,8,1,4,1
+East Northumberland Secondary School,Public,68,-3,9,5,1,0
+Kenner Collegiate and Vocational Institute,Public,73,11,25,5,10,0
+Norwood District High School,Public,60,-10,20,10,0,0
+Port Hope High School,Public,69,9,10,5,5,0
+Thomas A Stewart Secondary School,Public,74,2,14,3,5,3
+Beaver Brae Secondary School,Public,62,-5,10,10,0,0
+Dryden High School,Public,59,-6,10,5,0,0
+Red Lake District High School,Public,58,-14,0,10,5,0
+Sioux North High School,Public,29,-9,0,20,0,0
+St Thomas Aquinas High School,Catholic,66,-8,10,0,0,0
+Hammarskjold High School,Public,78,1,15,8,3,2
+Superior Collegiate and Vocational Institute,Public,78,-1,15,6,8,4
+Westgate Collegiate and Vocational Institute,Public,82,-3,13,7,3,1
+Alexander Mackenzie Secondary School,Public,20,-14,20,0,0,0
+Blenheim District High School,Public,59,-9,10,5,0,0
+Chatham-Kent Secondary School,Public,81,0,16,7,5,3
+Great Lakes Secondary School,Public,69,-1,22,6,3,1
+John McGregor Secondary School,Public,74,0,18,7,3,1
+Lambton Central Collegiate and Vocational Institute,Public,78,-4,9,2,2,0
+Lambton Kent Composite School,Public,78,6,10,20,0,0
+North Lambton Secondary School,Public,74,-9,10,0,5,0
+Northern Collegiate Institute and Vocational School,Public,86,-6,9,2,6,2
+Ridgetown District High School,Public,67,3,10,10,0,0
+Tilbury District High School,Public,60,4,10,25,45,0
+Wallaceburg District Secondary School,Public,57,-7,15,10,0,0
+Bayridge Secondary School,Public,73,-8,7,2,8,2
+Ernestown Secondary School,Public,74,-10,5,0,0,0
+Frontenac Secondary School,Public,85,-1,8,2,5,0
+Granite Ridge Education Centre Secondary School,Public,62,-12,20,10,0,0
+La Salle Secondary School,Public,66,-16,5,1,3,1
+Loyalist Collegiate and Vocational Institute,Public,78,2,23,5,21,10
+Napanee District Secondary School,Public,64,-5,15,4,1,0
+North Addington Education Centre,Public,67,26,30,20,0,0
+Sydenham High School,Public,72,-1,6,2,0,1
+Catholic Central High School,Catholic,85,11,24,10,27,17
+Holy Cross Catholic Secondary School,Catholic,67,-11,5,5,0,0
+John Paul II Catholic Secondary School,Catholic,72,2,25,15,20,13
+Mother Teresa Catholic Secondary School,Catholic,89,-4,18,5,25,5
+Regina Mundi College,Catholic,77,9,22,7,17,4
+St Joseph's High School,Catholic,81,1,11,6,1,0
+St Mary's High School,Catholic,71,-11,9,7,5,2
+St Thomas Aquinas Secondary School,Catholic,89,-1,11,2,6,4
+St. Andre Bessette Secondary School,Catholic,80,-8,17,2,20,7
+Almaguin Highlands Secondary School,Public,69,8,20,9,2,1
+Chippewa Secondary School,Public,72,-16,14,4,5,2
+F J McElligott Secondary School,Public,55,-1,20,5,5,0
+Northern Secondary School,Public,53,-15,20,10,0,0
+Parry Sound High School,Public,61,-9,15,6,2,0
+West Ferris Secondary School,Public,68,-12,17,5,1,1
+Blessed Trinity Catholic Secondary School,Catholic,86,0,8,2,5,1
+Denis Morris Catholic High School,Catholic,76,-9,19,9,14,5
+Holy Cross Catholic Secondary School,Catholic,77,-5,15,7,21,6
+Lakeshore Catholic High School,Catholic,84,-4,16,5,4,1
+Notre Dame College School,Catholic,83,-1,16,4,7,1
+Saint Francis Catholic Secondary School,Catholic,82,-6,16,6,17,6
+Saint Michael Catholic High School,Catholic,89,7,17,7,23,5
+Saint Paul Catholic High School,Catholic,75,-3,14,5,13,3
+St Joseph-Scollard Hall Secondary School,Catholic,78,-2,14,4,1,1
+O'Gorman High School,Catholic,69,4,10,5,5,0
+All Saints Catholic High School,Catholic,92,6,8,2,11,3
+Holy Trinity Catholic High School,Catholic,85,-6,8,1,21,6
+Immaculata High School,Catholic,83,-4,28,9,18,9
+Lester B Pearson Catholic High School,Catholic,71,9,26,7,42,26
+Notre Dame High School,Catholic,74,0,35,15,35,10
+Sacred Heart High School,Catholic,89,-1,4,0,4,1
+St Joseph High School,Catholic,86,-7,9,2,19,3
+St Mark High School,Catholic,83,-4,5,1,5,1
+St Matthew High School,Catholic,92,-2,9,3,18,4
+St Patrick's High School,Catholic,81,6,32,14,44,20
+St Paul High School,Catholic,85,6,20,10,20,5
+St Peter High School,Catholic,79,-8,7,1,12,4
+St Pius X High School,Catholic,76,-2,19,8,30,17
+St. Francis Xavier (9-12) Catholic School,Catholic,87,-3,14,5,29,8
+St. Mother Teresa High School,Catholic,88,2,9,1,24,10
+A.Y. Jackson Secondary School,Public,86,-5,8,1,23,4
+Bell High School,Public,81,1,20,7,46,17
+Brookfield High School,Public,76,-2,20,10,45,15
+Cairine Wilson Secondary School,Public,85,0,6,2,20,3
+Canterbury High School,Public,94,3,13,5,14,2
+Colonel By Secondary School,Public,98,3,11,2,41,5
+Earl of March Secondary School,Public,94,2,10,1,40,8
+Glebe Collegiate Institute,Public,85,-1,11,4,18,8
+Gloucester High School,Public,74,0,30,10,58,21
+Hillcrest High School,Public,74,-1,25,10,35,5
+John McCrae Secondary School,Public,88,-4,9,2,35,4
+Lisgar Collegiate Institute,Public,96,0,22,3,29,5
+Longfields Davidson Heights Secondary School,Public,89,1,10,2,37,6
+Merivale High School,Public,88,1,10,4,32,4
+Nepean High School,Public,90,-4,13,2,13,2
+Osgoode Township High School,Public,82,-9,5,0,5,0
+Ridgemont High School,Public,55,-10,33,16,66,25
+Sir Guy Carleton Secondary School,Public,28,-19,20,10,10,0
+Sir Robert Borden High School,Public,89,3,12,5,22,3
+Sir Wilfrid Laurier Secondary School,Public,83,2,8,2,28,5
+South Carleton High School,Public,83,-2,6,0,7,2
+West Carleton Secondary School,Public,85,-5,6,2,19,1
+Woodroffe High School,Public,76,5,24,13,46,22
+Applewood Heights Secondary School,Public,91,5,19,6,56,5
+Bramalea Secondary School,Public,69,0,20,12,46,12
+Brampton Centennial Secondary School,Public,83,6,14,7,52,4
+Castlebrooke Secondary School,Public,86,7,12,15,69,3
+Cawthra Park Secondary School,Public,87,-5,15,4,31,1
+Central Peel Secondary School,Public,80,4,16,9,55,14
+Chinguacousy Secondary School,Public,86,2,13,9,67,5
+Clarkson Secondary School,Public,86,5,16,5,37,4
+David Suzuki Secondary School,Public,76,7,13,8,54,8
+Erindale Secondary School,Public,90,20,20,6,55,6
+Fletcher's Meadow Secondary School,Public,81,6,10,8,59,8
+Glenforest Secondary School,Public,88,-3,27,10,73,6
+Harold M. Brathwaite Secondary School,Public,87,5,12,8,74,6
+Heart Lake Secondary School,Public,72,-4,10,8,38,7
+Humberview Secondary School,Public,85,2,6,6,24,1
+Jean Augustine Secondary School,Public,83,0,13,4,58,7
+John Fraser Secondary School,Public,93,1,19,2,71,16
+Judith Nyman Secondary School,Public,4,3,16,9,24,1
+Lincoln M. Alexander Secondary School,Public,72,14,22,19,59,13
+Lorne Park Secondary School,Public,90,-5,12,3,29,2
+Louise Arbour Secondary School,Public,77,-4,9,8,70,7
+Mayfield Secondary School,Public,86,1,9,6,29,1
+Meadowvale Secondary School,Public,79,-2,12,3,55,8
+Mississauga Secondary School,Public,82,5,13,9,73,6
+North Park Secondary School,Public,89,7,13,9,61,3
+Port Credit Secondary School,Public,92,6,21,4,45,7
+Rick Hansen Secondary School,Public,83,0,18,6,74,10
+Sandalwood Heights Secondary School,Public,81,6,10,10,72,8
+Stephen Lewis Secondary School,Public,87,0,21,3,77,17
+Streetsville Secondary School,Public,91,-3,13,4,40,3
+T. L. Kennedy Secondary School,Public,83,8,27,7,78,27
+The Woodlands Secondary School,Public,93,3,17,6,62,7
+Turner Fenton Secondary School,Public,84,5,14,9,57,2
+West Credit Secondary School,Public,20,10,20,6,35,3
+Holy Cross Catholic Secondary School,Catholic,73,4,17,4,5,2
+Holy Trinity Catholic Secondary School,Catholic,78,1,6,2,4,0
+St. Mary Catholic Secondary School,Catholic,76,-2,12,3,3,1
+St. Peter Catholic Secondary School,Catholic,73,-9,13,3,5,2
+St. Stephen Catholic Secondary School,Catholic,77,-2,8,3,3,1
+St. Thomas Aquinas Catholic Secondary School,Catholic,64,-2,10,10,0,0
+Chelmsford Valley District Composite School,Public,48,-6,10,5,0,0
+Confederation Secondary School,Public,61,3,5,5,0,0
+Espanola High School,Public,55,-18,10,10,0,0
+Lasalle Secondary School,Public,69,-7,18,3,1,2
+Lively District Secondary School,Public,67,-8,0,5,5,0
+Lo-Ellen Park Secondary School,Public,88,3,8,1,4,3
+Lockerby Composite School,Public,90,-5,11,2,2,1
+Manitoulin Secondary School,Public,57,-9,10,10,0,0
+Sudbury Secondary School,Public,73,-1,20,0,0,0
+Fort Frances High School,Public,62,0,11,9,5,0
+Northern Lakes High School,Public,83,7,10,0,0,0
+Rainy River High School,Public,69,-8,10,10,5,0
+Bishop Smith Catholic High School,Catholic,70,-15,10,4,2,0
+St Joseph's High School,Catholic,83,-7,10,10,0,0
+Arnprior District High School,Public,86,-1,14,3,1,1
+Fellowes High School,Public,59,-13,13,4,1,0
+Mackenzie Community School - Secondary School,Public,82,-2,10,0,5,0
+Madawaska Valley District High School,Public,68,0,10,10,0,0
+Opeongo High School,Public,67,-7,10,5,0,0
+Renfrew Collegiate Institute,Public,79,16,15,5,0,0
+Valour JK to 12 School - Secondary School,Public,57,-23,0,0,0,0
+Banting Memorial District High School,Public,75,-13,8,5,5,0
+Barrie North Collegiate Institute,Public,76,-1,17,7,4,2
+Bear Creek Secondary School,Public,76,-3,9,3,7,1
+Bradford District High School,Public,88,4,12,7,22,4
+Collingwood Collegiate Institute,Public,89,2,15,7,2,1
+Eastview Secondary School,Public,89,1,12,8,5,2
+Elmvale District High School,Public,85,-8,10,0,0,0
+Georgian Bay District Secondary School,Public,64,-9,12,5,1,0
+Innisdale Secondary School,Public,79,-10,10,4,9,2
+Nantyr Shores Secondary School,Public,84,-5,11,9,7,1
+Nottawasaga Pines Secondary School,Public,65,-9,9,6,4,1
+Orillia Secondary School,Public,82,6,13,8,1,1
+Stayner Collegiate Institute,Public,71,-8,10,5,0,0
+Twin Lakes Secondary School,Public,58,-15,13,6,2,0
+Holy Trinity Catholic High School,Catholic,81,4,12,8,16,2
+Our Lady of the Bay Catholic High School,Catholic,81,8,15,0,0,0
+Patrick Fogarty Catholic Secondary School,Catholic,76,-3,11,8,2,1
+St Dominic Catholic Secondary School,Catholic,70,-2,10,5,0,0
+St Joan of Arc High School,Catholic,70,-5,9,4,7,2
+St Joseph's Separate School,Catholic,72,-8,15,10,6,3
+St Peter's Secondary School,Catholic,78,1,10,5,5,2
+St Theresa's Separate School,Catholic,68,-10,12,5,1,0
+St Thomas Aquinas Catholic Secondary School,Catholic,74,-2,7,5,5,1
+St Patrick's Catholic High School,Catholic,76,-10,12,3,2,1
+Ursuline College Chatham Catholic Secondary School,Catholic,81,0,14,10,2,1
+Bishop Alexander Carter Catholic Secondary School,Catholic,75,9,10,0,0,0
+Marymount Academy Catholic School,Catholic,89,-3,10,0,5,0
+St Benedict Catholic Secondary School,Catholic,92,7,5,5,5,10
+St Charles College,Catholic,84,-3,16,3,5,5
+Geraldton Composite School,Public,44,2,15,30,0,0
+Lake Superior High School,Public,78,-7,10,10,0,0
+Manitouwadge High School,Public,50,-9,10,0,0,0
+Marathon High School,Public,52,-11,5,5,0,0
+Nipigon Red Rock District High School,Public,40,-15,15,5,0,0
+A B Lucas Secondary School,Public,84,0,15,3,34,6
+Arthur Voaden Secondary School,Public,32,-9,30,5,0,0
+Central Elgin Collegiate Institute,Public,82,-6,13,4,3,0
+Clarke Road Secondary School,Public,45,-15,22,13,8,1
+College Avenue Secondary School,Public,43,-17,11,8,3,0
+East Elgin Secondary School,Public,68,9,11,38,15,2
+Glencoe District High School,Public,63,4,25,0,5,0
+Glendale High School,Public,64,-8,9,16,1,0
+H B Beal Secondary School,Public,67,2,22,8,21,11
+Huron Park Secondary School,Public,64,-10,9,6,8,2
+Ingersoll District Collegiate Institute,Public,59,-7,9,5,2,1
+London Central Secondary School,Public,97,-1,19,5,42,5
+London South Collegiate Institute,Public,80,6,20,7,15,2
+Lord Dorchester Secondary School,Public,82,1,6,1,8,1
+Medway High School,Public,77,-3,8,1,8,2
+Montcalm Secondary School,Public,41,-5,34,21,32,15
+North Middlesex District High School,Public,61,-7,10,0,0,0
+Oakridge Secondary School,Public,86,-3,16,3,27,5
+Parkside Collegiate Institute,Public,65,-7,12,4,2,0
+Saunders Secondary School,Public,61,-4,16,4,21,3
+Sir Frederick Banting Secondary School,Public,82,-1,20,4,32,9
+Sir Wilfrid Laurier Secondary School,Public,78,4,20,8,19,2
+Strathroy District Collegiate Institute,Public,76,8,9,5,1,0
+West Elgin Secondary School,Public,51,-12,10,10,0,0
+Westminster Secondary School,Public,79,8,30,10,61,31
+Woodstock Collegiate Institute,Public,76,-6,10,6,3,1
+St Ignatius High School,Catholic,83,5,12,4,3,1
+St Patrick High School,Catholic,69,-7,12,5,3,1
+Bishop Allen Academy Catholic Secondary School,Catholic,92,1,13,5,30,2
+Bishop Marrocco/Thomas Merton Catholic Secondary School,Catholic,93,32,24,19,51,16
+Brebeuf College School,Catholic,75,1,25,7,49,14
+Cardinal Carter Academy for the Arts,Catholic,98,1,19,6,22,2
+Chaminade College School,Catholic,81,1,20,16,24,3
+Dante Alighieri Academy,Catholic,86,12,25,15,60,25
+Father Henry Carr Catholic Secondary School,Catholic,73,6,29,25,31,14
+Father John Redmond Catholic Secondary School,Catholic,94,4,14,4,24,3
+Francis Libermann Catholic High School,Catholic,83,7,24,12,37,9
+James Cardinal McGuigan Catholic High School,Catholic,54,-5,32,24,51,34
+Loretto Abbey Catholic Secondary School,Catholic,92,3,18,8,28,4
+Loretto College School,Catholic,86,16,20,20,35,5
+Madonna Catholic Secondary School,Catholic,72,1,25,18,49,27
+Marshall McLuhan Catholic Secondary School,Catholic,91,10,22,12,57,11
+Mary Ward Catholic Secondary School,Catholic,90,-4,25,13,33,3
+Michael Power/St Joseph High School,Catholic,84,1,16,6,28,4
+Monsignor Percy Johnson Catholic High School,Catholic,80,11,25,21,33,13
+Neil McNeil High School,Catholic,78,1,18,7,16,3
+Notre Dame Catholic High School,Catholic,92,6,23,8,26,4
+Senator O'Connor College School,Catholic,91,11,25,7,40,8
+St Basil-the-Great College School,Catholic,76,0,25,22,37,11
+St Joan of Arc Catholic Academy,Catholic,73,1,28,12,49,25
+St John Henry Newman Catholic High School,Catholic,87,4,26,10,29,6
+St John Paul II Catholic Secondary School,Catholic,82,-3,21,10,31,5
+St Joseph Morrow Park Catholic Secondary School,Catholic,90,7,30,5,50,25
+St Joseph's College School,Catholic,91,5,20,10,35,0
+St Mary Catholic Academy,Catholic,89,17,24,17,47,16
+St Michael's Choir (Sr) School,Catholic,100,0,20,0,20,0
+St Mother Teresa Catholic Academy,Catholic,78,-1,25,15,30,20
+St Oscar Romero Catholic Secondary School,Catholic,65,-5,24,24,61,16
+St Patrick Catholic Secondary School,Catholic,93,14,32,12,41,15
+A Y Jackson Secondary School,Public,87,-4,23,4,67,9
+Agincourt Collegiate Institute,Public,96,3,24,16,62,3
+Albert Campbell Collegiate Institute,Public,82,4,23,18,70,12
+Birchmount Park Collegiate Institute,Public,73,5,30,9,37,10
+Bloor Collegiate Institute,Public,89,-2,21,12,47,5
+C W Jefferys Collegiate Institute,Public,62,-14,30,24,56,16
+Cedarbrae Collegiate Institute,Public,76,9,34,14,53,14
+Central Technical School,Public,48,-8,29,16,35,13
+Central Toronto Academy,Public,80,9,21,11,21,9
+Danforth Collegiate Institute and Technical School,Public,77,4,27,9,36,4
+David and Mary Thomson Collegiate Institute,Public,63,2,31,17,58,17
+Delphi Secondary Alternative School,Public,89,-11,20,10,40,0
+Don Mills Collegiate Institute,Public,85,-3,26,8,48,7
+Downsview Secondary School,Public,61,16,30,20,55,40
+Dr Norman Bethune Collegiate Institute,Public,88,2,25,13,81,9
+Earl Haig Secondary School,Public,95,2,31,3,56,12
+East York Collegiate Institute,Public,70,4,26,8,38,8
+Emery Collegiate Institute,Public,61,2,25,25,55,20
+Etobicoke Collegiate Institute,Public,76,-9,14,4,33,8
+Etobicoke School of the Arts,Public,96,-1,14,6,8,1
+Forest Hill Collegiate Institute,Public,80,-9,15,4,32,10
+George Harvey Collegiate Institute,Public,57,-16,30,20,60,40
+George S Henry Academy,Public,85,10,30,10,65,30
+Georges Vanier Secondary School,Public,79,17,31,5,71,28
+Harbord Collegiate Institute,Public,94,4,19,9,24,4
+Heydon Park Secondary School,Public,14,-15,20,10,30,0
+Humberside Collegiate Institute,Public,92,0,12,4,16,2
+Jarvis Collegiate Institute,Public,77,2,45,14,69,12
+John Polanyi Collegiate Institute,Public,69,-11,30,10,55,25
+Kipling Collegiate Institute,Public,46,-7,30,25,55,20
+L'Amoreaux Collegiate Institute,Public,76,-3,30,15,60,15
+Lakeshore Collegiate Institute,Public,72,3,20,8,28,8
+Lawrence Park Collegiate Institute,Public,95,-3,10,1,15,2
+Leaside High School,Public,97,1,14,4,23,2
+Lester B Pearson Collegiate Institute,Public,83,7,21,12,56,7
+Malvern Collegiate Institute,Public,95,0,10,2,8,2
+Marc Garneau Collegiate Institute,Public,82,3,46,18,85,18
+Martingrove Collegiate Institute,Public,86,4,21,12,38,4
+Monarch Park Collegiate Institute,Public,88,5,21,7,24,4
+Newtonbrook Secondary School,Public,64,-12,27,6,68,32
+North Albion Collegiate Institute,Public,81,6,28,26,59,14
+North Toronto Collegiate Institute,Public,93,-5,16,1,29,12
+Northern Secondary School,Public,88,-2,16,2,17,3
+Northview Heights Secondary School,Public,87,7,24,9,62,18
+Oakwood Collegiate Institute,Public,60,-8,25,10,20,0
+Oasis Alternative Secondary School,Public,54,-8,25,10,10,0
+Parkdale Collegiate Institute,Public,84,5,25,15,40,5
+R H King Academy,Public,90,0,23,6,48,7
+Richview Collegiate Institute,Public,90,-2,14,7,22,1
+Riverdale Collegiate Institute,Public,91,6,23,10,23,0
+Rosedale Heights School of the Arts,Public,95,-1,18,8,11,2
+Runnymede Collegiate Institute,Public,70,-3,30,15,35,0
+SATEC @ W A Porter Collegiate Institute,Public,90,0,25,8,60,4
+Silverthorn Collegiate Institute,Public,80,1,17,5,20,9
+Sir John A Macdonald Collegiate Institute,Public,82,-7,24,8,51,10
+Sir Oliver Mowat Collegiate Institute,Public,80,-3,11,3,16,2
+Sir Wilfrid Laurier Collegiate Institute,Public,80,7,26,12,52,6
+Stephen Leacock Collegiate Institute,Public,85,5,35,10,60,20
+Thistletown Collegiate Institute,Public,89,10,25,20,40,10
+Ursula Franklin Academy,Public,100,2,12,5,22,1
+Victoria Park Collegiate Institute,Public,75,-11,26,7,56,8
+West Hill Collegiate Institute,Public,70,2,27,10,39,12
+West Humber Collegiate Institute,Public,86,13,24,21,59,7
+Western Technical & Commercial School,Public,76,4,20,10,24,4
+Weston Collegiate Institute,Public,65,0,32,22,47,10
+Westview Centennial Secondary School,Public,46,7,37,33,41,14
+Wexford Collegiate School for the Arts,Public,82,1,22,6,30,5
+William Lyon Mackenzie Collegiate Institute,Public,94,4,19,4,47,11
+Winston Churchill Collegiate Institute,Public,57,-12,30,15,50,10
+Woburn Collegiate Institute,Public,82,3,29,14,60,8
+York Memorial Collegiate Institute,Public,85,5,27,21,52,3
+York Mills Collegiate Institute,Public,93,2,22,2,45,8
+AAEC's/e-Learning,Public,29,8,16,7,7,1
+Bracebridge and Muskoka Lakes Secondary School,Public,77,-7,13,2,2,0
+Fenelon Falls Secondary School,Public,63,-7,16,11,0,0
+Gravenhurst High School,Public,70,-11,20,10,0,0
+Haliburton Highland Secondary School,Public,69,5,15,15,0,0
+Huntsville High School,Public,79,1,13,5,2,1
+I E Weldon Secondary School,Public,73,-14,13,5,1,1
+Lindsay Collegiate and Vocational Institute,Public,63,-12,10,4,0,1
+Almonte District High School,Public,75,-6,5,0,0,0
+Athens District High School,Public,59,-17,10,0,0,0
+Brockville Collegiate Institute,Public,79,-6,15,5,0,0
+Carleton Place High School,Public,84,7,10,2,1,1
+Charlottenburgh and Lancaster District High School,Public,95,3,15,10,0,0
+Cornwall Collegiate and Vocational School,Public,52,-3,24,10,11,3
+Gananoque Secondary School,Public,74,5,10,0,0,0
+Glengarry District High School,Public,75,-8,20,0,10,0
+North Dundas District High School,Public,77,-1,10,0,0,0
+North Grenville District High School,Public,72,-2,9,0,2,1
+Perth and District Collegiate Institute,Public,77,2,15,5,0,0
+Rideau District High School,Public,75,-3,10,0,0,0
+Rockland District High School,Public,66,-7,10,5,5,0
+Russell High School,Public,73,-1,0,0,5,0
+Seaway District High School,Public,67,0,20,0,0,0
+Smiths Falls District Collegiate Institute,Public,69,3,18,5,3,0
+South Grenville District High School,Public,60,-10,10,5,0,0
+St Lawrence Secondary School,Public,49,-7,30,10,20,5
+T R Leger School of Adult & Continuing Secondary School,Public,39,-11,18,7,5,1
+Tagwi Secondary School,Public,69,-12,10,0,0,0
+Thousand Islands Secondary School,Public,79,3,18,4,1,1
+Vankleek Hill Collegiate Institute,Public,95,12,20,0,20,0
+Centennial Collegiate and Vocational Institute,Public,91,6,8,1,23,2
+Centre Dufferin District High School,Public,75,5,11,2,2,1
+Centre Wellington District High School,Public,85,3,8,5,2,0
+College Heights Secondary School,Public,31,6,20,5,5,0
+Erin District High School,Public,86,-4,5,0,0,0
+Guelph Collegiate and Vocational Institute,Public,88,3,10,6,26,2
+John F Ross Collegiate and Vocational Institute,Public,86,-4,10,3,16,5
+Norwell District Secondary School,Public,72,-5,10,27,11,0
+Orangeville District Secondary School,Public,78,-1,10,4,5,2
+Wellington Heights Secondary School,Public,73,-6,10,20,0,0
+Westside Secondary School,Public,78,6,6,2,3,1
+Monsignor Doyle Catholic Secondary School,Catholic,76,0,9,7,11,2
+Resurrection Catholic Secondary School,Catholic,88,2,15,7,28,8
+St Benedict Catholic Secondary School,Catholic,82,4,10,6,18,2
+St David Catholic Secondary School,Catholic,84,-2,12,8,20,5
+St Mary's High School,Catholic,79,7,15,6,34,12
+Bluevale Collegiate Institute,Public,81,-5,10,4,19,1
+Cameron Heights Collegiate Institute,Public,81,-2,15,8,43,2
+Eastwood Collegiate Institute,Public,77,-2,19,10,39,17
+Elmira District Secondary School,Public,84,-8,7,30,22,0
+Forest Heights Collegiate Institute,Public,68,-10,18,8,42,15
+Galt Collegiate and Vocational Institute,Public,77,-1,14,11,28,8
+Glenview Park Secondary School,Public,68,1,13,8,17,0
+Grand River Collegiate Institute,Public,75,-2,8,7,23,2
+Huron Heights Secondary School,Public,74,-12,10,3,32,3
+Jacob Hespeler Secondary School,Public,65,-14,6,3,13,1
+Kitchener Waterloo Collegiate and Vocational School,Public,79,3,14,6,17,2
+Laurel Heights Secondary School,Public,85,2,13,3,39,5
+Preston High School,Public,79,-6,10,4,16,1
+Southwood Secondary School,Public,69,-12,8,6,4,1
+Waterloo Collegiate Institute,Public,85,-4,17,8,49,18
+Waterloo-Oxford District Secondary School,Public,79,-3,6,6,4,0
+Bishop Macdonell Catholic Secondary School,Catholic,90,4,6,2,9,4
+Our Lady of Lourdes Catholic School,Catholic,79,-8,13,8,33,17
+St James Catholic School,Catholic,77,-7,9,5,6,1
+Assumption College School,Catholic,82,-4,30,10,41,5
+Cardinal Carter Catholic Secondary School,Catholic,92,9,12,19,14,6
+Catholic Central,Catholic,75,10,41,19,79,55
+F J Brennan Catholic High School,Catholic,86,2,22,7,11,2
+Holy Names Catholic High School,Catholic,86,-3,19,6,19,2
+St Anne Secondary School,Catholic,84,-6,7,2,8,1
+St Joseph's High School,Catholic,85,0,18,6,30,3
+St Thomas of Villanova Secondary School,Catholic,93,5,7,3,3,1
+Cardinal Carter Catholic Secondary School,Catholic,84,-5,10,4,21,1
+Father Bressani Catholic High School,Catholic,88,1,8,7,12,1
+Father Michael McGivney Catholic High School,Catholic,97,4,17,11,44,5
+Holy Cross Catholic Academy High School,Catholic,74,-2,9,7,14,2
+Our Lady Queen of the World CA High School,Catholic,84,4,21,2,45,14
+Our Lady of the Lake Catholic Academy High School,Catholic,66,-6,10,5,10,0
+Sacred Heart Catholic High School,Catholic,84,1,10,3,27,7
+St Augustine Catholic High School,Catholic,95,3,17,6,37,4
+St Brother André Catholic High School,Catholic,83,-3,12,5,21,3
+St Elizabeth Catholic High School,Catholic,87,5,12,4,25,6
+St Jean de Brebeuf Catholic High School,Catholic,78,-7,11,9,18,1
+St Joan of Arc Catholic High School,Catholic,83,6,11,6,21,7
+St Maximilian Kolbe High School,Catholic,84,0,11,3,12,1
+St Robert Catholic High School,Catholic,92,-5,19,2,61,6
+St Theresa of Lisieux Catholic High School,Catholic,92,-3,13,2,32,1
+Alexander MacKenzie High School,Public,88,1,17,1,53,9
+Aurora High School,Public,94,3,11,3,26,3
+Bayview Secondary School,Public,96,2,23,2,65,16
+Bill Crothers Secondary School,Public,94,-2,12,5,10,0
+Bur Oak Secondary School,Public,92,2,16,8,65,5
+Dr G W Williams Secondary School,Public,90,3,11,4,41,6
+Dr John M Denison Secondary School,Public,83,8,10,3,31,7
+Emily Carr Secondary School,Public,87,0,7,5,17,3
+Hodan Nalayeh Secondary School,Public,90,2,11,3,52,3
+Huron Heights Secondary School,Public,80,1,10,5,12,2
+Keswick High School,Public,71,-3,11,7,6,1
+King City Secondary School,Public,84,7,9,2,26,5
+Langstaff Secondary School,Public,87,-6,22,3,68,15
+Maple High School,Public,91,6,14,8,66,9
+Markham District High School,Public,89,3,10,4,28,3
+Markville Secondary School,Public,95,1,15,6,53,8
+Middlefield Collegiate Institute,Public,88,-2,20,13,82,6
+Milliken Mills High School,Public,88,-2,19,14,80,5
+Newmarket High School,Public,92,-2,11,4,28,3
+Pierre Elliott Trudeau High School,Public,97,4,20,9,60,8
+Richmond Green Secondary School,Public,90,2,17,3,55,9
+Richmond Hill High School,Public,92,-1,18,3,63,12
+Sir William Mulock Secondary School,Public,82,-1,9,2,29,4
+Stephen Lewis Secondary School,Public,91,1,11,2,43,5
+Stouffville District Secondary School,Public,83,-4,10,5,26,2
+Sutton District High School,Public,56,-4,15,10,0,0
+Thornhill Secondary School,Public,89,-1,23,2,63,17
+Thornlea Secondary School,Public,93,2,20,3,45,7
+Tommy Douglas Secondary School,Public,86,3,11,10,51,6
+Unionville High School,Public,93,0,22,6,64,9
+Westmount Collegiate Institute,Public,91,-2,12,1,32,2
+Woodbridge College,Public,83,1,10,10,55,5

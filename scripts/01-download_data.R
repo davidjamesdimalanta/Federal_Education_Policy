@@ -29,3 +29,7 @@ data(countrycode)
 
 # download OSSLT 2021-2023 data through URL
 "https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/e0e90bd5-d662-401a-a6d2-60d69ac89d14/download/new_sif_data_table_2021_22prelim_en_march2024.xlsx"
+
+# download Distribution of total and current expenditure by educational institutions, from public and private sources, by level of education - Dataset frmo Government of Canada
+"https://www150.statcan.gc.ca/n1/tbl/csv/37100212-eng.zip"
+

@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Cleans the raw School Information and Student Demographics from Data Ontario
+# Purpose: Clean OSSLT data from Data Ontario, Education Policy Spending data from the Government of Canada, and PISA scores data from the OECD
 # Author: David James Dimalanta
 # Date: 27 March 2024
 # Contact: david.dimalanta@mail.utoronto.ca
@@ -10,6 +10,7 @@
 library(readxl)
 library(tidyverse)
 library(janitor)
+library(arrow)
 #### Clean data ####
 
 # read in data
@@ -18,8 +19,10 @@ raw2018 <- read_xlsx("./data/raw_data/2018_2019.xlsx")
 raw2019 <- read_xlsx("./data/raw_data/2019_2020.xlsx")
 raw2020 <- read_xlsx("./data/raw_data/2020_2021.xlsx")
 raw2021 <- read_xlsx("./data/raw_data/2021_2023.xlsx")
+raw_gov <- read_csv("./data/raw_data/37100212.csv")
+raw_data <- read_csv("./data/raw_data/PISA_data.csv")
 
-# filter PISA data
+### clean and filter PISA data
 pisa_data <- raw_data |>
   select(year, country, math, read, science) |>
   filter(country == "FIN" | country == "HKG" | country == "CAN") |>
@@ -107,7 +110,7 @@ hkg_science <- hkg_data |>
   )
 
 
-
+#
 # make OSSLT 2017 data readable
 clean2017 <- raw2017 |>
   clean_names() |>
@@ -245,6 +248,16 @@ osslt_2021 <- clean2021 |>
   filter(school_type == "Public" | school_type == "Catholic") |>
   na.omit()
 
+
+### clean canadian government spending data
+
+
+
+
+
+
+
+
 # write data to CSV
 write_csv(osslt_2017, "./data/analysis_data/2017.csv")
 write_csv(osslt_2018, "./data/analysis_data/2018.csv")
@@ -260,6 +273,41 @@ write_csv(chl_science, "./data/analysis_data/chile_science_scores.csv")
 write_csv(hkg_math, "./data/analysis_data/hongkong_math_scores.csv")
 write_csv(hkg_read, "./data/analysis_data/hongkong_literacy_scores.csv")
 write_csv(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
+write_parquet()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### graph OSSLT data

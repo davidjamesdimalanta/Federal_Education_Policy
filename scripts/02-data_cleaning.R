@@ -11,6 +11,7 @@ library(readxl)
 library(tidyverse)
 library(janitor)
 library(arrow)
+library(learningtower)
 #### Clean data ####
 
 # read in data
@@ -20,7 +21,7 @@ raw2019 <- read_xlsx("./data/raw_data/2019_2020.xlsx")
 raw2020 <- read_xlsx("./data/raw_data/2020_2021.xlsx")
 raw2021 <- read_xlsx("./data/raw_data/2021_2023.xlsx")
 raw_gov <- read_csv("./data/raw_data/37100212.csv")
-raw_data <- read_csv("./data/raw_data/PISA_data.csv")
+raw_data <- load_student("all")
 
 ### clean and filter PISA data
 pisa_data <- raw_data |>

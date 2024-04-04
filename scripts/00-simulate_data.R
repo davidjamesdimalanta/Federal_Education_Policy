@@ -19,5 +19,3 @@ data <-
     certainty = runif(n = 50, min = 0, max = 800) |> floor(),
     scores = runif(n = 50, min = 0, max = 600) |> floor(),
   )
-
-

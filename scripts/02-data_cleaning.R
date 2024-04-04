@@ -155,11 +155,11 @@ osslt_2017 <- clean2017 |>
     percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   rename(osslt10 = percentage_of_students_that_passed_the_grade_10_osslt_on_their_first_attempt,
-         ossltchange = change_in_grade_10_osslt_literacy_achievement_over_three_years,
-         low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
-         no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
-         esl = percentage_of_students_whose_first_language_is_not_english,
-         imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
+    ossltchange = change_in_grade_10_osslt_literacy_achievement_over_three_years,
+    low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
+    no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
+    esl = percentage_of_students_whose_first_language_is_not_english,
+    imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   filter(school_type == "Public" | school_type == "Catholic") |>
   na.omit()
@@ -176,11 +176,11 @@ osslt_2018 <- clean2018 |>
     percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   rename(osslt10 = percentage_of_students_that_passed_the_grade_10_osslt_on_their_first_attempt,
-         ossltchange = change_in_grade_10_osslt_literacy_achievement_over_three_years,
-         low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
-         no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
-         esl = percentage_of_students_whose_first_language_is_not_english,
-         imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
+    ossltchange = change_in_grade_10_osslt_literacy_achievement_over_three_years,
+    low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
+    no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
+    esl = percentage_of_students_whose_first_language_is_not_english,
+    imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   filter(school_type == "Public" | school_type == "Catholic") |>
   na.omit()
@@ -198,11 +198,11 @@ osslt_2019 <- clean2019 |>
     percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   rename(osslt10 = percentage_of_students_that_passed_the_grade_10_osslt_on_their_first_attempt,
-         ossltchange = change_in_grade_10_osslt_literacy_achievement_over_three_years,
-         low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
-         no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
-         esl = percentage_of_students_whose_first_language_is_not_english,
-         imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
+    ossltchange = change_in_grade_10_osslt_literacy_achievement_over_three_years,
+    low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
+    no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
+    esl = percentage_of_students_whose_first_language_is_not_english,
+    imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   filter(school_type == "Public" | school_type == "Catholic") |>
   na.omit()
@@ -220,11 +220,11 @@ osslt_2020 <- clean2020 |>
     percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   rename(osslt10 = percentage_of_students_that_passed_the_grade_10_osslt_on_their_first_attempt,
-         ossltchange = change_in_grade_10_osslt_literacy_achievement_over_three_years,
-         low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
-         no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
-         esl = percentage_of_students_whose_first_language_is_not_english,
-         imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
+    ossltchange = change_in_grade_10_osslt_literacy_achievement_over_three_years,
+    low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
+    no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
+    esl = percentage_of_students_whose_first_language_is_not_english,
+    imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   filter(school_type == "Public" | school_type == "Catholic") |>
   na.omit()
@@ -241,10 +241,10 @@ osslt_2021 <- clean2021 |>
     percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   rename(osslt10 = percentage_of_students_that_passed_the_grade_10_osslt_on_their_first_attempt,
-         low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
-         no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
-         esl = percentage_of_students_whose_first_language_is_not_english,
-         imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
+    low_inc = percentage_of_school_aged_children_who_live_in_low_income_households,
+    no_deg = percentage_of_students_whose_parents_have_no_degree_diploma_or_certificate,
+    esl = percentage_of_students_whose_first_language_is_not_english,
+    imm = percentage_of_students_who_are_new_to_canada_from_a_non_english_speaking_country
   ) |>
   filter(school_type == "Public" | school_type == "Catholic") |>
   na.omit()
@@ -311,8 +311,8 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
 
 
 ### graph OSSLT data
-# 2017 
-  ggplot(osslt_2017, aes(x = osslt10)) +
+# 2017
+ggplot(osslt_2017, aes(x = osslt10)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -322,7 +322,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2017, aes(x = low_inc)) +
+ggplot(osslt_2017, aes(x = low_inc)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -332,7 +332,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2017, aes(x = no_deg)) +
+ggplot(osslt_2017, aes(x = no_deg)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -342,7 +342,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2017, aes(x = imm)) +
+ggplot(osslt_2017, aes(x = imm)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -352,7 +352,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2017, aes(x = esl)) +
+ggplot(osslt_2017, aes(x = esl)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -363,7 +363,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   facet_grid(~ school_type)
 
 # 2018
-  ggplot(osslt_2018, aes(x = osslt10)) +
+ggplot(osslt_2018, aes(x = osslt10)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -373,7 +373,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2018, aes(x = low_inc)) +
+ggplot(osslt_2018, aes(x = low_inc)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -383,7 +383,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2018, aes(x = no_deg)) +
+ggplot(osslt_2018, aes(x = no_deg)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -393,7 +393,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2018, aes(x = imm)) +
+ggplot(osslt_2018, aes(x = imm)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -403,7 +403,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2018, aes(x = esl)) +
+ggplot(osslt_2018, aes(x = esl)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -414,7 +414,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   facet_grid(~ school_type)
 
 # 2019
-  ggplot(osslt_2019, aes(x = osslt10)) +
+ggplot(osslt_2019, aes(x = osslt10)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -424,7 +424,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2019, aes(x = low_inc)) +
+ggplot(osslt_2019, aes(x = low_inc)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -434,7 +434,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2019, aes(x = no_deg)) +
+ggplot(osslt_2019, aes(x = no_deg)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -444,7 +444,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2019, aes(x = imm)) +
+ggplot(osslt_2019, aes(x = imm)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -454,7 +454,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2019, aes(x = esl)) +
+ggplot(osslt_2019, aes(x = esl)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -465,7 +465,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   facet_grid(~ school_type)
 
 # 2020
-  ggplot(osslt_2020, aes(x = osslt10)) +
+ggplot(osslt_2020, aes(x = osslt10)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -475,7 +475,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2020, aes(x = low_inc)) +
+ggplot(osslt_2020, aes(x = low_inc)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -485,7 +485,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2020, aes(x = no_deg)) +
+ggplot(osslt_2020, aes(x = no_deg)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -495,7 +495,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2020, aes(x = imm)) +
+ggplot(osslt_2020, aes(x = imm)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -505,7 +505,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2020, aes(x = esl)) +
+ggplot(osslt_2020, aes(x = esl)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -516,7 +516,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   facet_grid(~ school_type)
 
 # 2021
-  ggplot(osslt_2021, aes(x = osslt10)) +
+ggplot(osslt_2021, aes(x = osslt10)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -526,7 +526,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2021, aes(x = low_inc)) +
+ggplot(osslt_2021, aes(x = low_inc)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -536,7 +536,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2021, aes(x = no_deg)) +
+ggplot(osslt_2021, aes(x = no_deg)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -546,7 +546,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2021, aes(x = imm)) +
+ggplot(osslt_2021, aes(x = imm)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(
@@ -556,7 +556,7 @@ write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
   ) +
   facet_grid(~ school_type)
 
-  ggplot(osslt_2021, aes(x = esl)) +
+ggplot(osslt_2021, aes(x = esl)) +
   geom_histogram(bins = 30, fill = "blue", color = "white") +
   theme_minimal() +
   labs(

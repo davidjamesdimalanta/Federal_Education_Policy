@@ -259,22 +259,21 @@ osslt_2021 <- clean2021 |>
 
 
 
-# write data to CSV
-write_csv(osslt_2017, "./data/analysis_data/2017.csv")
-write_csv(osslt_2018, "./data/analysis_data/2018.csv")
-write_csv(osslt_2019, "./data/analysis_data/2019.csv")
-write_csv(osslt_2020, "./data/analysis_data/2020.csv")
-write_csv(osslt_2021, "./data/analysis_data/2021.csv")
-write_csv(can_math, "./data/analysis_data/canada_math_scores.csv")
-write_csv(can_read, "./data/analysis_data/canada_literacy_scores.csv")
-write_csv(can_science, "./data/analysis_data/canada_science_scores.csv")
-write_csv(chl_math, "./data/analysis_data/chile_math_score.csv")
-write_csv(chl_read, "./data/analysis_data/chile_literacy_scores.csv")
-write_csv(chl_science, "./data/analysis_data/chile_science_scores.csv")
-write_csv(hkg_math, "./data/analysis_data/hongkong_math_scores.csv")
-write_csv(hkg_read, "./data/analysis_data/hongkong_literacy_scores.csv")
-write_csv(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
-write_parquet()
+# write data to parquet file
+write_parquet(osslt_2017, "./data/analysis_data/2017.csv")
+write_parquet(osslt_2018, "./data/analysis_data/2018.csv")
+write_parquet(osslt_2019, "./data/analysis_data/2019.csv")
+write_parquet(osslt_2020, "./data/analysis_data/2020.csv")
+write_parquet(osslt_2021, "./data/analysis_data/2021.csv")
+write_parquet(can_math, "./data/analysis_data/canada_math_scores.csv")
+write_parquet(can_read, "./data/analysis_data/canada_literacy_scores.csv")
+write_parquet(can_science, "./data/analysis_data/canada_science_scores.csv")
+write_parquet(chl_math, "./data/analysis_data/chile_math_score.csv")
+write_parquet(chl_read, "./data/analysis_data/chile_literacy_scores.csv")
+write_parquet(chl_science, "./data/analysis_data/chile_science_scores.csv")
+write_parquet(hkg_math, "./data/analysis_data/hongkong_math_scores.csv")
+write_parquet(hkg_read, "./data/analysis_data/hongkong_literacy_scores.csv")
+write_parquet(hkg_science, "./data/analysis_data/hongkong_science_scores.csv")
 
 
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This paper provides a comprehensive analysis of government spending on education policies and their correlation with academic performance, as indicated by scores from the Programme for International Student Assessment (PISA) and the Ontario Secondary School Literacy Test (OSSLT). By examining various countries' financial investments in their education systems, such as Chile, Finland, and Canada, this paper aims to identify patterns and outcomes that highlight the effectiveness of these expenditures. Through a comparative approach, it assesses how different levels and methods of funding impact student achievement in international benchmarks like PISA, which evaluates reading, mathematics, and science literacy among 15-year-olds.
+This paper provides a comprehensive analysis of government spending on education policies and their correlation with academic performance, as indicated by scores from the Programme for International Student Assessment (PISA). By examining various countries' financial investments in their education systems, such as Chile, Finland, and Canada, this paper aims to identify patterns and outcomes that highlight the effectiveness of these expenditures. Through a comparative approach, it assesses how different levels and methods of funding impact student achievement in international benchmarks like PISA, which evaluates reading, mathematics, and science literacy among 15-year-olds.
 
 ## File Structure
 

@@ -148,6 +148,50 @@ cleaned_wbd_spending <- raw_spending |>
            country_code == "HKG") |>
   select(where(~ !anyNA(.)))
 
+# function to clean column names by removing the 'x' prefix 
+clean_column_names <- function(df) {
+  colnames(df) <- colnames(df) |>
+    str_replace_all("^x", "")  # Replace 'x' at the beginning of column names
+  return(df)
+}
+
+# Split the dataframe by country code and clean column names
+can_spending <- cleaned_wbd_spending |>
+  filter(country_code == "CAN") |>
+  clean_column_names()
+
+chl_spending <- cleaned_wbd_spending |>
+  filter(country_code == "CHL") |>
+  clean_column_names()
+
+fin_spending <- cleaned_wbd_spending |>
+  filter(country_code == "FIN") |>
+  clean_column_names()
+
+hkg_spending <- cleaned_wbd_spending |>
+  filter(country_code == "HKG") |>
+  clean_column_names()
+
+
+# Transform data from wide to long format for plotting
+can_long <- can_spending |>
+  pivot_longer(
+    cols = -c(country_name, country_code), 
+    names_to = "year", 
+    values_to = "value"
+  ) |>
+  mutate(year = as.numeric(year)) |>
+  filter(year >= 2000)
+
+# Create a line plot
+ggplot(can_long, aes(x = year, y = value, group = country_code, color = country_code)) +
+  geom_line() +
+  labs(title = "Education Spending as a Percentage of GDP Over Time",
+       subtitle = "Data for Canada",
+       x = "Year",
+       y = "Spending (% of GDP)",
+       color = "Country Code") +
+  theme_minimal()
 
 
 # write data to csv file
@@ -163,11 +207,18 @@ write_csv(hkg_science, "./data/analysis_data/csv_data/hongkong_science_scores.cs
 write_csv(fin_math, "./data/analysis_data/csv_data/finland_math_scores.csv")
 write_csv(fin_read, "./data/analysis_data/csv_data/finland_literacy_scores.csv")
 write_csv(fin_science, "./data/analysis_data/csv_data/finland_science_scores.csv")
-write_csv(cleaned_gov_spending_data, "./data/analysis_data/csv_data/cleaned_gov_spending_data.csv")
 write_csv(cleaned_wbd_spending, "./data/analysis_data/csv_data/wbd_spending.csv")
+write_csv(fin_data, "./data/analysis_data/csv_data/fin_data.csv")
+write_csv(can_data, "./data/analysis_data/csv_data/can_data.csv")
+write_csv(chl_data, "./data/analysis_data/csv_data/chl_data.csv")
+write_csv(hkg_data, "./data/analysis_data/csv_data/hkg_data.csv")
+write_csv(can_spending, "./data/analysis_data/csv_data/can_spending.csv")
+write_csv(fin_spending, "./data/analysis_data/csv_data/fin_spending.csv")
+write_csv(chl_spending, "./data/analysis_data/csv_data/chl_spending.csv")
+write_csv(hkg_spending, "./data/analysis_data/csv_data/hkg_spending.csv")
 
 
-# write data to parquet
+# write data to parquet ***DOESNT WORK***
 write_parquet(
   can_math,
   "./data/analysis_data/parquet_data/canada_math_scores.csv",
@@ -182,7 +233,3 @@ write_parquet(
   coerce_timestamps = NULL,
   allow_truncated_timestamps = FALSE
 )
-
-
-# Display federal spending as a knitr table
-kable(cleaned_gov_spending_data, caption = "Canadian Government Spending on High School Education")

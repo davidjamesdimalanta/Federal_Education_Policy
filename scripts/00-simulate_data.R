@@ -1,21 +1,27 @@
 #### Preamble ####
-# Purpose: Simulates... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Simulates PISA Score Data
+# Author: David James Dimalanta
+# Date: April 24 2024
+# Contact: david.dimalanta@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: NA
 
 
 #### Workspace setup ####
 library(tidyverse)
-# [...UPDATE THIS...]
-
 #### Simulate data ####
 
-data <-
+years <- 1972:2022
+low_scores <- 500
+high_scores <- 800
+
+# Simulate PISA score data
+pisa_scores <-
   tibble(
-    certainty = runif(n = 50, min = 0, max = 800) |> floor(),
-    scores = runif(n = 50, min = 0, max = 600) |> floor(),
-  )
+    pisa_scores_count =
+    runif(n = length(years), min = low_scores, max = high_scores),
+    noise = rnorm(n = length(years), mean = 0, sd = 3)
+  ) |>
+  select(-noise)
+
+print(pisa_scores, n = 200)

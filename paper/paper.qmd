@@ -5,7 +5,7 @@ author:
 thanks: "Code and data are available at: https://github.com/davidjamesdimalanta/Federal_Education_Policy"
 date: today
 date-format: long
-abstract: "This paper provides a comprehensive analysis of government spending on education policies and their correlation with academic performance, as indicated by scores from the Programme for International Student Assessment (PISA) and the Ontario Secondary School Literacy Test (OSSLT). By examining various countries' financial investments in their education systems, such as Chile, Finland, and Canada, this paper aims to identify patterns and outcomes that highlight the effectiveness of these expenditures. Through a comparative approach, it assesses how different levels and methods of funding impact student achievement in international benchmarks like PISA, which evaluates reading, mathematics, and science literacy among 15-year-olds, and in specific contexts such as Ontario's literacy requirement, the OSSLT."
+abstract: "This paper provides a comprehensive analysis of government spending on education policies and their correlation with academic performance, as indicated by scores from the Programme for International Student Assessment (PISA). By examining various countries' financial investments in their education systems, such as Chile, Finland, and Canada, this paper aims to identify patterns and outcomes that highlight the effectiveness of these expenditures. Through a comparative approach, it assesses how different levels and methods of funding impact student achievement in international benchmarks like PISA, which evaluates reading, mathematics, and science literacy among 15-year-olds."
 format: pdf
 number-sections: true
 toc: true
@@ -22,26 +22,31 @@ library(tidyverse)
 
 # Introduction
 
-This paper provides a comprehensive analysis of government spending on education policies and their correlation with academic performance, as indicated by scores from the Programme for International Student Assessment (PISA) and the Ontario Secondary School Literacy Test (OSSLT). By examining various countries' financial investments in their education systems, such as Chile, Finland, and Canada, this paper aims to identify patterns and outcomes that highlight the effectiveness of these expenditures. Through a comparative approach, it assesses how different levels and methods of funding impact student achievement in international benchmarks like PISA, which evaluates reading, mathematics, and science literacy among 15-year-olds, and in specific contexts such as Ontario's literacy requirement, the OSSLT.
+The correlation between educational expenditures and academic performance, particularly in the context of standardized assessments like the Programme for International Student Assessment (PISA), has long intrigued policymakers and educators. This paper aims to delve into the complexities of this relationship by examining the influence of government spending on education across various countries with a focus on Canada, Chile, Finland, and Hong Kong. Each of these nations exhibits unique educational policies and funding levels, providing a rich comparative landscape to explore the efficacy of financial investments in education.
+
+Central to our study is the hypothesis that increased financial investment in education does not unilaterally translate to improved academic outcomes on standardized tests such as PISA. By analyzing PISA scores, which assess 15-year-old students' abilities in reading, mathematics, and science, this research seeks to identify patterns and outcomes that illuminate the real effects of these investments.
+
+Our investigation is rooted in a comprehensive data collection effort involving the PISA datasets and extensive financial data on educational spending from reliable sources such as Statistics Canada and the World Bank. Through meticulous data cleaning and analysis, using advanced statistical tools and methods, this paper provides a nuanced understanding of how the allocation of educational resources impacts student performance internationally.
+
+In this introduction, we set the stage for a detailed exploration of the interconnected dynamics of educational funding and academic achievement. The findings from this research are intended to contribute to the ongoing global dialogue on educational policy and reform, offering evidence-based insights that could guide future decisions aimed at enhancing student outcomes through targeted financial strategies. By critically assessing the role of government spending in education, this paper endeavors to add clarity to the debate on how best to allocate resources in the pursuit of academic excellence.
 
 # Data {#sec-data}
 
 ## Data Collection
 
-Data for this study was meticulously sourced to analyze the impact of government educational spending on academic performance. This involved collecting data from the Programme for International Student Assessment (PISA) and the Ontario Secondary School Literacy Test (OSSLT).
+Data for this study was meticulously sourced to analyze the impact of government educational spending on academic performance. This involved collecting data from the Programme for International Student Assessment (PISA).
 
 - PISA Data: Acquired from the Learning Tower package, this dataset provides international assessment scores of 15-year-old students in reading, mathematics, and science, capturing student performance across various countries and assessment years.
-- OSSLT Data: Obtained from Data Ontario, these datasets span from the academic years 2017-2018 through 2021-2023, including detailed literacy test results and additional demographic information from Ontario students.
-- Government Spending Data: Sourced from Statistics Canada, this dataset details educational expenditures from public and private sources across different education levels, facilitating an analysis of spending patterns related to PISA and OSSLT outcomes.
+- World Bank Data Federal Education Policy: Sourced from World Bank Data, this dataset details educational expenditures from public and private sources across different education levels, facilitating an analysis of spending patterns related to PISA outcomes.
 
 ## Data Cleaning Tools and Procedure
 
-R [@citeR] was the language and environment used for this paper as well as throughout the data cleaning process, with different packages such as tidyverse [@tidyverse], ggplot2 [@ggplot2], dplyr [@dplyr], tidyr [@tidyr], knitr [@knitr], janitor [@janitor], lubridate [@lubridate] packages. PISA data from the @learningtower R package and OSSLT scores from @ontario_data_catalogue_2021 underwent extensive cleaning and transformation processes to ensure consistency and accuracy for analysis.
+R [@citeR] was the language and environment used for this paper as well as throughout the data cleaning process, with different packages such as tidyverse [@tidyverse], ggplot2 [@ggplot2], dplyr [@dplyr], tidyr [@tidyr], knitr [@knitr], janitor [@janitor], lubridate [@lubridate] packages. PISA data from the @learningtower R package and (@world_bank_open_data_2023) underwent extensive cleaning and transformation processes to ensure consistency and accuracy for analysis.
 
 ### Loading and Initial Cleaning
 
-- OSSLT and PISA data were loaded using `read_xlsx` and `load_student("all")` functions respectively.
-- Government spending data from @world_bank_open_data_2023 was imported using `read_csv` from the @tidyr package.
+- PISA data were loaded using `read_xlsx` and `load_student("all")` functions respectively.
+- Federal spending data from @world_bank_open_data_2023 was imported using `read_csv` from the @tidyr package.
 
 ### Filtering and Selecting Relevant Data
 
@@ -51,10 +56,6 @@ R [@citeR] was the language and environment used for this paper as well as throu
 ### Data Aggregation
 
 PISA data was grouped by year and country to compute minimum, maximum, and average reading scores to observe trends over time.
-
-### OSSLT Data Processing
-
-Data was cleaned to ensure uniformity across all years, focusing on demographics that could impact literacy rates, such as income levels and ESL status.
 
 ### Government Spending Data Cleaning
 
@@ -71,7 +72,7 @@ All datasets utilized in this study are publicly available and anonymized, adher
 
 # Results {#sec-results}
 
-In the analysis of PISA scores for literacy, mathematics, and science across three distinct countries—Canada, Chile, and Finland—we observe varied performance trends which may reflect the impact of different educational policies and investments. The following tables summarize the results extracted from the cleaned datasets for each country and subject:
+In the analysis of PISA scores for literacy across three distinct countries—Canada, Chile, and Finland—we observe varied performance trends which may reflect the impact of different educational policies and investments. The following tables summarize the results extracted from the cleaned datasets for each country and subject:
 
 ```{r}
 #| label: fig-canliteracy
@@ -128,11 +129,11 @@ knitr::kable(finland_literacy, caption = "PISA Literacy Scores Finland")
 
 ## Federal Education Budget Analysis
 
-@fig-spend depicts the federal education budgets of Canada, Chile, and Finland. The allocation of federal funds towards education can significantly influence the effectiveness of educational policies and the academic performance of students. The following table provides a detailed breakdown of the educational spending as a percentage of GDP for these countries over recent years. This financial commitment reflects the priority each government places on education and its potential correlation with the PISA scores observed.
+The following tables depict the federal education budgets of Canada, Chile, Hong Kong, and Finland. The allocation of federal funds towards education can significantly influence the effectiveness of educational policies and the academic performance of students. The following table provides a detailed breakdown of the educational spending as a percentage of GDP for these countries over recent years. This financial commitment reflects the priority each government places on education and its potential correlation with the PISA scores observed.
 
 ```{r}
-#| label: fig-spend
-#| fig-cap: Federal education Budget as % of GDP
+#| label: fig-canspending
+#| fig-cap: Canada Federal education Budget
 #| echo: false
 #| warning: false
 #| message: false
@@ -140,15 +141,178 @@ knitr::kable(finland_literacy, caption = "PISA Literacy Scores Finland")
 # setup
 library(readr)
 library(knitr)
+library(tidyverse)
 
-education_spending <- read_csv("../data/analysis_data/csv_data/wbd_spending.csv")
+# Read the CSV file
+can_spending <- read_csv("../data/analysis_data/csv_data/can_spending.csv")
 
-knitr::kable(education_spending, caption = "Federal Education Spending as a Percentage of GDP")
+# Transform data from wide to long format for plotting
+can_long <- can_spending |>
+  pivot_longer(
+    cols = -c(country_name, country_code), 
+    names_to = "year", 
+    values_to = "value"
+  ) |>
+  mutate(year = as.numeric(year)) |>
+  filter(year >= 2000)
+
+# Create a line plot
+ggplot(can_long, aes(x = year, y = value, group = country_code, color = country_code)) +
+  geom_line() +
+  labs(title = "Education Spending as a Percentage of GDP Over Time",
+       subtitle = "Data for Canada",
+       x = "Year",
+       y = "Spending (Percent of GDP)",
+       color = "Country Code") +
+  theme_minimal()
+```
+
+```{r}
+#| label: fig-chlspending
+#| fig-cap: Chile Federal education Budget
+#| echo: false
+#| warning: false
+#| message: false
+
+# setup
+library(readr)
+library(knitr)
+library(tidyverse)
+
+# Read the CSV file
+chl_spending <- read_csv("../data/analysis_data/csv_data/chl_spending.csv")
+
+# Transform data from wide to long format for plotting
+chl_long <- chl_spending |>
+  pivot_longer(
+    cols = -c(country_name, country_code), 
+    names_to = "year", 
+    values_to = "value"
+  ) |>
+  mutate(year = as.numeric(year)) |>
+  filter(year >= 2000)
+
+# Create a line plot
+ggplot(chl_long, aes(x = year, y = value, group = country_code, color = country_code)) +
+  geom_line() +
+  labs(title = "Education Spending as a Percentage of GDP Over Time",
+       subtitle = "Data for Chile",
+       x = "Year",
+       y = "Spending (Percent of GDP)",
+       color = "Country Code") +
+  theme_minimal()
+```
+
+```{r}
+#| label: fig-finspending
+#| fig-cap: Finland Federal education Budget
+#| echo: false
+#| warning: false
+#| message: false
+
+# setup
+library(readr)
+library(knitr)
+library(tidyverse)
+
+# Read the CSV file
+fin_spending <- read_csv("../data/analysis_data/csv_data/fin_spending.csv")
+
+# Transform data from wide to long format for plotting
+fin_long <- fin_spending |>
+  pivot_longer(
+    cols = -c(country_name, country_code), 
+    names_to = "year", 
+    values_to = "value"
+  ) |>
+  mutate(year = as.numeric(year)) |>
+  filter(year >= 2000)
+
+# Create a line plot
+ggplot(fin_long, aes(x = year, y = value, group = country_code, color = country_code)) +
+  geom_line() +
+  labs(title = "Education Spending as a Percentage of GDP Over Time",
+       subtitle = "Data for Finland",
+       x = "Year",
+       y = "Spending (Percent of GDP)",
+       color = "Country Code") +
+  theme_minimal()
+```
+
+```{r}
+#| label: fig-hkgspending
+#| fig-cap: Hong Kong Federal education Budget
+#| echo: false
+#| warning: false
+#| message: false
+
+# setup
+library(readr)
+library(knitr)
+library(tidyverse)
+
+# Read the CSV file
+hkg_spending <- read_csv("../data/analysis_data/csv_data/hkg_spending.csv")
+
+# Transform data from wide to long format for plotting
+hkg_long <- hkg_spending |>
+  pivot_longer(
+    cols = -c(country_name, country_code), 
+    names_to = "year", 
+    values_to = "value"
+  ) |>
+  mutate(year = as.numeric(year)) |>
+  filter(year >= 2000)
+
+# Create a line plot
+ggplot(hkg_long, aes(x = year, y = value, group = country_code, color = country_code)) +
+  geom_line() +
+  labs(title = "Education Spending as a Percentage of GDP Over Time",
+       subtitle = "Data for Hong Kong",
+       x = "Year",
+       y = "Spending (Percent of GDP)",
+       color = "Country Code") +
+  theme_minimal()
 ```
 
 # Discussion {#sec-discussion}
 
+This  analysis of PISA scores, juxtaposed against the educational expenditures of Canada, Chile, Finland, and Hong Kong, provides a better understanding of the dynamics between government spending on education and student performance on an international scale. The findings from this research suggest that higher educational expenditures do not necessarily correlate with improved PISA scores, highlighting the complex interplay of additional factors that influence educational outcomes.
+
+## Variability in Outcomes Despite Similar Spending Levels
+
+In examining the PISA scores and educational budgets across these countries, it is apparent that similar levels of spending do not uniformly lead to parallel academic outcomes. For example, despite Finland's high investment in education, which is reflective of its commitment to quality education (@fig-finliteracy), its PISA scores do not always surpass those of Hong Kong, which spends a comparable percentage of its GDP on education yet frequently achieves superior PISA results, particularly in science and mathematics (@fig-hkgspending) [@sahlberg2011pisa; @cheung2008understanding]. This discrepancy underscores that financial inputs alone do not dictate educational quality or outcomes. Effective allocation and strategic use of these funds, possibly driven by cultural values towards education in Hong Kong, play a crucial role [@darling-hammond1991; @sahlberg2011pisa].
+
+## Cultural and Societal Influences on Education
+
+The impact of cultural and societal contexts on education is markedly evident when comparing PISA outcomes and educational practices. East Asian countries like Hong Kong not only prioritize education highly but also integrate rigorous academic expectations and testing regimes, which differ significantly from the educational approaches in Western countries such as Canada and Finland. This cultural prioritization is reflected in higher PISA scores, suggesting that societal attitudes towards education can enhance the efficacy of the money spent on it. Indeed, societal expectations and the value placed on education contribute to student performance as much as, if not more than, the financial expenditures alone [@cheung2008understanding; @sahlberg2011pisa].
+
+The analysis also underscores the significant role of cultural factors. For instance, countries in East Asia, including Hong Kong, typically emphasize rigorous educational regimes and have a cultural emphasis on academic success, which are less prevalent in Western countries like Canada and Chile. These cultural priorities may enhance the effectiveness of educational expenditures and lead to higher PISA scores without necessarily increasing the spending ratio [@sahlberg2011pisa; @cheung2008understanding]. Thus, the impact of educational expenditure cannot be fully understood without considering the societal and cultural context in which it occurs.
+
+## Diminishing Returns on Educational Investments
+
+An intriguing aspect of these findings is the manifestation of diminishing returns in educational investments. Finland's fluctuating PISA scores over the years, despite consistent high spending on education (@fig-finspending), suggest that there is a threshold beyond which additional investment yields minimal improvements in student outcomes [@hursh2007assessing]. This phenomenon indicates the necessity for optimizing educational expenditures by focusing on the quality of educational delivery, the relevance of the curriculum, and the integration of innovative teaching methods rather than merely increasing financial inputs [@darling-hammond1991]. Enhancing teacher training, curriculum development, and student engagement might be more effective strategies for improving educational outcomes than straightforward increases in budget allocations.
+
+## Limitations
+
+Despite the comprehensive approach and meticulous data analysis presented in this study, there are several limitations that must be acknowledged. 
+
+### Cross-Cultural Comparisons
+
+Educational systems vary widely in terms of their goals, cultural norms, and societal expectations. What constitutes 'academic performance' can be culturally dependent, and thus, direct comparisons using a standardized test might not fully capture the educational quality or effectiveness across different cultural contexts. This study attempts to mitigate this through a comparative analysis but cannot entirely eliminate the inherent biases of standardized assessments.
+
+### Interpretation of Expenditures
+
+The interpretation of what constitutes 'educational spending' also presents a limitation. The data from the World Bank and other sources classify expenditures in broad categories, which may not account for the specific allocations that directly impact student learning, such as teacher training, infrastructure, or technological resources. This broad categorization might obscure the nuanced impacts of specific types of educational investments.
+
+### Causal Inferences
+
+Additionally, the observational nature of the data limits the ability to make causal inferences. While this research highlights correlations between educational spending and PISA scores, establishing causation would require more controlled experimental or longitudinal studies. The current analysis can suggest trends and potential relationships but cannot definitively assert causality between increased educational spending and improved academic outcomes.
+
 # Conclusion
+
+This analysis highlights that while financial investment in education is crucial, it is not the sole determinant of educational success as measured by PISA scores. The interplay of cultural values, societal norms, strategic fund allocation, and systemic educational policies plays a pivotal role in shaping the educational landscape. As such, policymakers should consider a multifaceted approach that not only increases financial investment in education but also strategically channels these funds towards areas that will yield substantial improvements in educational outcomes. This approach should also be sensitive to the cultural and societal contexts that significantly influence educational effectiveness and student performance on global benchmarks like the PISA.
+
 
 \newpage
 

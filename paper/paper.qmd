@@ -8,6 +8,7 @@ date-format: long
 abstract: "This paper provides a comprehensive analysis of government spending on education policies and their correlation with academic performance, as indicated by scores from the Programme for International Student Assessment (PISA) and the Ontario Secondary School Literacy Test (OSSLT). By examining various countries' financial investments in their education systems, such as Chile, Finland, and Canada, this paper aims to identify patterns and outcomes that highlight the effectiveness of these expenditures. Through a comparative approach, it assesses how different levels and methods of funding impact student achievement in international benchmarks like PISA, which evaluates reading, mathematics, and science literacy among 15-year-olds, and in specific contexts such as Ontario's literacy requirement, the OSSLT."
 format: pdf
 number-sections: true
+toc: true
 bibliography: references.bib
 ---
 
@@ -18,12 +19,138 @@ bibliography: references.bib
 library(ggplot2)
 library(tidyverse)
 ```
+
 # Introduction
 
 This paper provides a comprehensive analysis of government spending on education policies and their correlation with academic performance, as indicated by scores from the Programme for International Student Assessment (PISA) and the Ontario Secondary School Literacy Test (OSSLT). By examining various countries' financial investments in their education systems, such as Chile, Finland, and Canada, this paper aims to identify patterns and outcomes that highlight the effectiveness of these expenditures. Through a comparative approach, it assesses how different levels and methods of funding impact student achievement in international benchmarks like PISA, which evaluates reading, mathematics, and science literacy among 15-year-olds, and in specific contexts such as Ontario's literacy requirement, the OSSLT.
 
-\newpage
+# Data {#sec-data}
 
+## Data Collection
+
+Data for this study was meticulously sourced to analyze the impact of government educational spending on academic performance. This involved collecting data from the Programme for International Student Assessment (PISA) and the Ontario Secondary School Literacy Test (OSSLT).
+
+- PISA Data: Acquired from the Learning Tower package, this dataset provides international assessment scores of 15-year-old students in reading, mathematics, and science, capturing student performance across various countries and assessment years.
+- OSSLT Data: Obtained from Data Ontario, these datasets span from the academic years 2017-2018 through 2021-2023, including detailed literacy test results and additional demographic information from Ontario students.
+- Government Spending Data: Sourced from Statistics Canada, this dataset details educational expenditures from public and private sources across different education levels, facilitating an analysis of spending patterns related to PISA and OSSLT outcomes.
+
+## Data Cleaning Tools and Procedure
+
+R [@citeR] was the language and environment used for this paper as well as throughout the data cleaning process, with different packages such as tidyverse [@tidyverse], ggplot2 [@ggplot2], dplyr [@dplyr], tidyr [@tidyr], knitr [@knitr], janitor [@janitor], lubridate [@lubridate] packages. PISA data from the @learningtower R package and OSSLT scores from @ontario_data_catalogue_2021 underwent extensive cleaning and transformation processes to ensure consistency and accuracy for analysis.
+
+### Loading and Initial Cleaning
+
+- OSSLT and PISA data were loaded using `read_xlsx` and `load_student("all")` functions respectively.
+- Government spending data from @world_bank_open_data_2023 was imported using `read_csv` from the @tidyr package.
+
+### Filtering and Selecting Relevant Data
+
+- PISA datasets and federal education spending data were filtered to include only the relevant countries (Finland, Hong Kong, Canada, and Chile) and necessary columns (year, country, math, reading, science scores).
+- Missing values were systematically removed with `na.omit()`.
+
+### Data Aggregation
+
+PISA data was grouped by year and country to compute minimum, maximum, and average reading scores to observe trends over time.
+
+### OSSLT Data Processing
+
+Data was cleaned to ensure uniformity across all years, focusing on demographics that could impact literacy rates, such as income levels and ESL status.
+
+### Government Spending Data Cleaning
+
+This dataset was refined to include only fields relevant to educational expenditures, ensuring alignment with the study's analytical needs.
+
+### Integration and Consolidation
+
+All cleaned datasets were integrated into a comprehensive data frame to facilitate a comparative analysis between educational spending and academic performance.
+
+## Ethical Considerations
+
+All datasets utilized in this study are publicly available and anonymized, adhering to strict ethical guidelines to protect individual privacy. The data was used solely for academic purposes, in accordance with the provisions set by the respective data providers, ensuring that all analyses uphold the highest standards of research integrity.
+
+
+# Results {#sec-results}
+
+In the analysis of PISA scores for literacy, mathematics, and science across three distinct countries—Canada, Chile, and Finland—we observe varied performance trends which may reflect the impact of different educational policies and investments. The following tables summarize the results extracted from the cleaned datasets for each country and subject:
+
+```{r}
+#| label: fig-canliteracy
+#| fig-cap: PISA Literacy Scores In Canada
+#| echo: false
+#| warning: false
+#| message: false
+
+# setup
+library(readr)
+library(knitr)
+
+canada_literacy <- read_csv("../data/analysis_data/csv_data/canada_literacy_scores.csv")
+
+knitr::kable(canada_literacy, caption = "PISA Literacy Scores Canada")
+
+```
+
+```{r}
+#| label: fig-chlliteracy
+#| fig-cap: PISA Literacy Scores in Chile
+#| echo: false
+#| warning: false
+#| message: false
+
+# setup
+library(readr)
+library(knitr)
+
+chile_literacy <- read_csv("../data/analysis_data/csv_data/chile_literacy_scores.csv")
+
+knitr::kable(chile_literacy, caption = "PISA Literacy Scores Chile")
+
+
+```
+
+```{r}
+#| label: fig-finliteracy
+#| fig-cap: PISA Literacy Scores in Finland
+#| echo: false
+#| warning: false
+#| message: false
+
+# setup
+library(readr)
+library(knitr)
+
+finland_literacy <- read_csv("../data/analysis_data/csv_data/finland_literacy_scores.csv")
+
+knitr::kable(finland_literacy, caption = "PISA Literacy Scores Finland")
+
+```
+
+
+## Federal Education Budget Analysis
+
+@fig-spend depicts the federal education budgets of Canada, Chile, and Finland. The allocation of federal funds towards education can significantly influence the effectiveness of educational policies and the academic performance of students. The following table provides a detailed breakdown of the educational spending as a percentage of GDP for these countries over recent years. This financial commitment reflects the priority each government places on education and its potential correlation with the PISA scores observed.
+
+```{r}
+#| label: fig-spend
+#| fig-cap: Federal education Budget as % of GDP
+#| echo: false
+#| warning: false
+#| message: false
+
+# setup
+library(readr)
+library(knitr)
+
+education_spending <- read_csv("../data/analysis_data/csv_data/wbd_spending.csv")
+
+knitr::kable(education_spending, caption = "Federal Education Spending as a Percentage of GDP")
+```
+
+# Discussion {#sec-discussion}
+
+# Conclusion
+
+\newpage
 
 # References
 
